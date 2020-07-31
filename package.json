@@ -16,7 +16,7 @@
     "lint-staged": ">=10",
     "prettier": "^2.0.5",
     "snowpack": "^2.7.4",
-    "svelte-check": "^0.1.59",
+    "svelte-check": "^1.0.2",
     "svelte-preprocess": "^4.0.9"
   },
   "prettier": {
