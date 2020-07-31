@@ -55,7 +55,7 @@
       rel="noopener noreferrer">
       {message.toUpperCase()}
     </a>
-    <p>Svelte is {text}</p>
+    <p>Svelte + Snowpack is {text}</p>
     <input bind:value={text} />
   </header>
 </div>

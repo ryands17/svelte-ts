@@ -1,4 +1,7 @@
 {
   "extends": "@snowpack/app-scripts-svelte",
-  "plugins": []
+  "plugins": [],
+  "alias": {
+    "~": "./src"
+  }
 }
