@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "snowpack dev",
+    "dev": "snowpack dev",
     "build": "snowpack build",
     "test": "jest"
   },
@@ -8,16 +8,33 @@
     "svelte": "^3.24.0"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.10.4",
     "@snowpack/app-scripts-svelte": "^1.8.1",
     "@snowpack/plugin-run-script": "^2.0.3",
     "@testing-library/jest-dom": "^5.5.0",
     "@testing-library/svelte": "^3.0.0",
     "@tsconfig/svelte": "^1.0.3",
     "@types/jest": "^26.0.4",
+    "husky": ">=4",
     "jest": "^25.4.0",
+    "lint-staged": ">=10",
+    "prettier": "^2.0.5",
     "snowpack": "^2.7.6",
     "svelte-check": "^0.1.59",
     "svelte-preprocess": "^4.0.8",
     "typescript": "^3.9.7"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "avoid"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,ts,css,md}": "prettier --write"
   }
 }
