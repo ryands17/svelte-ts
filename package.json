@@ -2,10 +2,14 @@
   "scripts": {
     "dev": "snowpack dev",
     "build": "snowpack build",
-    "test": "jest"
+    "test": "jest",
+    "cy:open": "dotenv -- cypress open"
   },
   "dependencies": {
-    "svelte": "^3.24.0"
+    "classnames": "^2.2.6",
+    "history": "^5.0.0",
+    "svelte": "^3.24.0",
+    "todomvc-app-css": "^2.3.0"
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.10.4",
@@ -14,7 +18,10 @@
     "@testing-library/jest-dom": "^5.5.0",
     "@testing-library/svelte": "^3.0.0",
     "@tsconfig/svelte": "^1.0.3",
+    "@types/classnames": "^2.2.10",
     "@types/jest": "^26.0.4",
+    "cypress": "^4.12.1",
+    "dotenv-cli": "^3.2.0",
     "husky": ">=4",
     "jest": "^25.4.0",
     "lint-staged": ">=10",
