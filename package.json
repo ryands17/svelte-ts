@@ -27,7 +27,7 @@
     "lint-staged": ">=10",
     "prettier": "^2.0.5",
     "snowpack": "^2.7.6",
-    "svelte-check": "^0.1.59",
+    "svelte-check": "^1.0.14",
     "svelte-preprocess": "^4.0.8",
     "typescript": "^3.9.7"
   },
