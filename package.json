@@ -2,12 +2,12 @@
   "scripts": {
     "dev": "snowpack dev",
     "build": "snowpack build",
+    "start": "npx serve -s build",
     "test": "jest",
     "cy:open": "dotenv -- cypress open"
   },
   "dependencies": {
     "classnames": "^2.2.6",
-    "history": "^5.0.0",
     "svelte": "^3.24.0",
     "todomvc-app-css": "^2.3.0"
   },

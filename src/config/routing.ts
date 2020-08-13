@@ -1,8 +1,8 @@
 import { writable } from 'svelte/store'
 import { onDestroy } from 'svelte/internal'
-import { createHashHistory } from 'history'
 
-const history = createHashHistory()
+const hs = (<any>window).HistoryLibrary as any
+const history = hs.createHashHistory()
 
 export const currentRoute = writable(history.location.pathname)
 

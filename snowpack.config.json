@@ -17,5 +17,5 @@
   "installOptions": {
     "installTypes": true
   },
-  "install": ["classnames", "history"]
+  "install": ["classnames"]
 }
