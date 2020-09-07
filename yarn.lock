@@ -5985,9 +5985,9 @@ supports-hyperlinks@^2.0.0:
     supports-color "^7.0.0"
 
 svelte-check@^1.0.19:
-  version "1.0.31"
-  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-1.0.31.tgz#6bcee7b1b7986beb2e1c6435c247949702094e5c"
-  integrity sha512-bN4KRNV8FjQ4wPkR27N6PEMkbAzsqMfzNh7XRcLrx5z7cmVyIS23PRsyQTNl50W9+vhud0GlZc37AKdPTmpu2Q==
+  version "1.0.37"
+  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-1.0.37.tgz#e640f3ad4b1dc45d5f398bafb9d8cbf05cf934b5"
+  integrity sha512-ek7aBVZqZki3PRCWMF/2WW5GV6nf7Ot2BUhzYnm1v9dtf2e/8h4b5OvbOW1nUrcRs4d3ZBDcbExe5XkQW6DfXw==
   dependencies:
     chalk "^4.0.0"
     chokidar "^3.4.1"
