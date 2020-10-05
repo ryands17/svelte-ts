@@ -1234,15 +1234,15 @@
     "@sinonjs/commons" "^1.7.0"
 
 "@snowpack/app-scripts-svelte@^1.8.3":
-  version "1.8.5"
-  resolved "https://registry.yarnpkg.com/@snowpack/app-scripts-svelte/-/app-scripts-svelte-1.8.5.tgz#15b6ce47f6bcf614a50a7e1cbd75e1b1fda7f9bc"
-  integrity sha512-7Z+8Rz7xfT4o32IIyxmuTEOZkT5dO5Ia5jzkBuplATQSTAhcJA2FCFWzDTs9qcu40ritOYQKBVyPNV+ucdRXIw==
+  version "1.8.6"
+  resolved "https://registry.yarnpkg.com/@snowpack/app-scripts-svelte/-/app-scripts-svelte-1.8.6.tgz#aa3866c73ab4f643c8749b1fbbec7614eb345e22"
+  integrity sha512-tYMHuLFWzGb7WmlgGtZIazxclEawRek0FDqZHZXM7vNx+lASZuJ077Nud0HxNnDwxEr8OTAACsYdNtHl2/JkTA==
   dependencies:
     "@babel/core" "^7.10.5"
     "@babel/preset-env" "^7.10.4"
     "@babel/preset-typescript" "^7.10.4"
-    "@snowpack/plugin-dotenv" "^2.0.2"
-    "@snowpack/plugin-svelte" "^2.1.0"
+    "@snowpack/plugin-dotenv" "^2.0.3"
+    "@snowpack/plugin-svelte" "^2.1.1"
     babel-jest "^26.2.2"
     jest-transform-svelte "^2.1.1"
 
@@ -1254,10 +1254,10 @@
     execa "^4.0.3"
     npm-run-path "^4.0.1"
 
-"@snowpack/plugin-dotenv@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@snowpack/plugin-dotenv/-/plugin-dotenv-2.0.2.tgz#c42d9b768dc302e2b4a2306bbedd38faa3da6e26"
-  integrity sha512-nQuXYi18DZtDGh7mBfVOgXbmJy9MFyx4Xc7kJ3iw9IzW3cEA3RXjFedWn0GiPkYZESGVnEnfVMjyF8JOlinKaQ==
+"@snowpack/plugin-dotenv@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@snowpack/plugin-dotenv/-/plugin-dotenv-2.0.3.tgz#b4c31ebaedb4bb5a78ba0619cfb59b644cee2878"
+  integrity sha512-F2ITMnaPxf4zNN2fhrdJcqPlkdHKXBwR0D2YO47coTYWQqCEcGuyv+72yGR3YHF147ormxf/UhXduEfuGM0i4g==
   dependencies:
     dotenv "^8.2.0"
     dotenv-expand "^5.1.0"
@@ -1270,10 +1270,10 @@
     execa "^4.0.3"
     npm-run-path "^4.0.1"
 
-"@snowpack/plugin-svelte@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@snowpack/plugin-svelte/-/plugin-svelte-2.1.0.tgz#d6e7a9279bcfc50a9b70fc0cacb2505bf65838ae"
-  integrity sha512-0uOZisvCmb8tFKTcPyQQ/UYAl58KsJpD6U0RKaATnT4Ryvfo80AMTAp4fPwztB0zgZr+o4Ty1JJyqXQvjV4s4w==
+"@snowpack/plugin-svelte@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@snowpack/plugin-svelte/-/plugin-svelte-2.1.1.tgz#21bb78aa84f7084b7ee5aee94e54ba8b24eaf933"
+  integrity sha512-+PIDUrFlCzeBJO3pkxgpW5Rs6e6TBGEZKrzhS9c4aCpZGQYYQ/Vf/5skgaEPTYSMyPzsES3I5C0aJoZ8MEgPHg==
   dependencies:
     rollup-plugin-svelte "^5.2.3"
 
