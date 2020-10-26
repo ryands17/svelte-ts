@@ -1356,9 +1356,9 @@
     dotenv-expand "^5.1.0"
 
 "@snowpack/plugin-run-script@^2.1.0", "@snowpack/plugin-run-script@^2.1.6":
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/@snowpack/plugin-run-script/-/plugin-run-script-2.1.6.tgz#49399c1b8103e55a4fbac5601708ba25bf272372"
-  integrity sha512-62Rz1ln3igt5uzpLZceSZwGVOj7wmdPW/UoxCRqSvBQ5NLtLCWmzJYUj+trq4e+pUSQPJgQPC26iAraENpm0kA==
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/@snowpack/plugin-run-script/-/plugin-run-script-2.1.7.tgz#30f50cc76251f9c857ccaa6b725bfa509765d9dd"
+  integrity sha512-+gwR03tsXDJf3OU0LJ40nZVZXVUu2nr8V5C3rLOHjlJ3U1vYY0WCcS9IvhrO3eYakOg5Git8JDZIakJ1wczvBA==
   dependencies:
     execa "^4.0.3"
     npm-run-path "^4.0.1"
