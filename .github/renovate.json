@@ -3,7 +3,6 @@
   "masterIssue": true,
   "automerge": true,
   "schedule": ["every weekend"],
-  "ignoreDeps": ["react-scripts"],
   "packageRules": [
     {
       "packagePatterns": [
