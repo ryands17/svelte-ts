@@ -1,0 +1,34 @@
+{
+  "extends": ["config:base"],
+  "masterIssue": true,
+  "automerge": true,
+  "schedule": ["every weekend"],
+  "ignoreDeps": ["react-scripts"],
+  "packageRules": [
+    {
+      "packagePatterns": [
+        "svelte",
+        "@tsconfig/svelte",
+        "svelte-preprocess",
+        "svelte-check"
+      ],
+      "groupName": "svelte-deps"
+    },
+    {
+      "packagePatterns": ["^@types/", "typesync"],
+      "groupName": "ts-types"
+    },
+    {
+      "packagePatterns": ["jest", "@testing-library*"],
+      "groupName": "test-utils"
+    },
+    {
+      "packagePatterns": [".*snowpack.*"],
+      "groupName": "snowpack-deps"
+    },
+    {
+      "packagePatterns": ["prettier", "husky", "lint-staged"],
+      "groupName": "formatters"
+    }
+  ]
+}
