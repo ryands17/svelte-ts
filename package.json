@@ -12,7 +12,7 @@
     "todomvc-app-css": "2.3.0"
   },
   "devDependencies": {
-    "@babel/preset-typescript": "7.12.1",
+    "@babel/preset-typescript": "7.12.13",
     "@snowpack/app-scripts-svelte": "1.9.1",
     "@snowpack/plugin-run-script": "2.3.0",
     "@testing-library/jest-dom": "5.11.5",
