@@ -5,29 +5,47 @@
   "schedule": ["every weekend"],
   "packageRules": [
     {
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "pin",
+        "digest",
+        "lockFileMaintenance",
+        "rollback",
+        "bump"
+      ],
+      "automerge": true
+    },
+    {
       "packagePatterns": [
         "svelte",
         "@tsconfig/svelte",
         "svelte-preprocess",
         "svelte-check"
       ],
-      "groupName": "svelte-deps"
+      "groupName": "svelte-deps",
+      "automerge": true
     },
     {
       "packagePatterns": ["^@types/", "typesync"],
-      "groupName": "ts-types"
+      "groupName": "ts-types",
+      "automerge": true
     },
     {
       "packagePatterns": ["jest", "@testing-library*"],
-      "groupName": "test-utils"
+      "groupName": "test-utils",
+      "automerge": true
     },
     {
       "packagePatterns": [".*snowpack.*"],
-      "groupName": "snowpack-deps"
+      "groupName": "snowpack-deps",
+      "automerge": true
     },
     {
       "packagePatterns": ["prettier", "husky", "lint-staged"],
-      "groupName": "formatters"
+      "groupName": "formatters",
+      "automerge": true
     }
   ]
 }
