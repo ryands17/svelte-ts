@@ -18,7 +18,7 @@
     "@testing-library/jest-dom": "5.11.5",
     "@testing-library/svelte": "3.0.0",
     "@tsconfig/svelte": "1.0.10",
-    "@types/classnames": "2.2.10",
+    "@types/classnames": "2.2.11",
     "@types/jest": "26.0.15",
     "cypress": "5.4.0",
     "dotenv-cli": "4.0.0",
