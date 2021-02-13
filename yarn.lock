@@ -6752,10 +6752,10 @@ svelte-hmr@^0.12.1:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.12.6.tgz#8db574511a61a9473e62739b5043ac87d76b0430"
   integrity sha512-q08BjoUSbwXpKo9ij6aym93jBrt7K8eutLwix5Y9cuSFLS5djxumOoUVsSzDkdKssLlg5X//Kg/0MWHHBeQRTg==
 
-svelte-preprocess@4.6.8, svelte-preprocess@^4.6.0:
-  version "4.6.8"
-  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.6.8.tgz#bad8a3a1a03163f3941f0dc264b64a40c44a7ae0"
-  integrity sha512-yrT+vuHPoGnNx5Oxa6gMqWV5ZhLgA4isfhUOBwv9iVqZAro9/Nyy8XF5sahAglfMmnCxJkDZSwg7CdAwGpVxhw==
+svelte-preprocess@4.6.9:
+  version "4.6.9"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.6.9.tgz#073d923eb351b98b6c6a454ba5feee981cd9dbf5"
+  integrity sha512-SROWH0rB0DJ+0Ii264cprmNu/NJyZacs5wFD71ya93Cg/oA2lKHgQm4F6j0EWA4ktFMzeuJJm/eX6fka39hEHA==
   dependencies:
     "@types/pug" "^2.0.4"
     "@types/sass" "^1.16.0"
@@ -6766,6 +6766,16 @@ svelte-preprocess@^4.0.0:
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.5.2.tgz#37976d1e0d866eb382411d486f7468d2275087e9"
   integrity sha512-ClUX5NecnGBwI+nJnnBvKKy0XutCq5uHTIKe6cPhpvuOj9AAnyvef9wOZAE93yr85OKPutGCNIJa/X1TrJ7O0Q==
+  dependencies:
+    "@types/pug" "^2.0.4"
+    "@types/sass" "^1.16.0"
+    detect-indent "^6.0.0"
+    strip-indent "^3.0.0"
+
+svelte-preprocess@^4.6.0:
+  version "4.6.8"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.6.8.tgz#bad8a3a1a03163f3941f0dc264b64a40c44a7ae0"
+  integrity sha512-yrT+vuHPoGnNx5Oxa6gMqWV5ZhLgA4isfhUOBwv9iVqZAro9/Nyy8XF5sahAglfMmnCxJkDZSwg7CdAwGpVxhw==
   dependencies:
     "@types/pug" "^2.0.4"
     "@types/sass" "^1.16.0"
