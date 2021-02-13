@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "classnames": "2.2.6",
-    "svelte": "3.29.4",
+    "svelte": "3.32.3",
     "todomvc-app-css": "2.3.0"
   },
   "devDependencies": {
@@ -27,8 +27,8 @@
     "lint-staged": "10.5.4",
     "prettier": "2.2.1",
     "snowpack": "2.18.5",
-    "svelte-check": "1.1.2",
-    "svelte-preprocess": "4.5.2",
+    "svelte-check": "1.1.34",
+    "svelte-preprocess": "4.6.8",
     "typescript": "4.1.5"
   },
   "prettier": {
