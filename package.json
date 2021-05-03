@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "classnames": "2.3.1",
-    "svelte": "3.38.1",
+    "svelte": "3.38.2",
     "todomvc-app-css": "2.4.1"
   },
   "devDependencies": {
