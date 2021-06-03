@@ -18,7 +18,7 @@
     "@babel/preset-typescript": "7.13.0",
     "@snowpack/app-scripts-svelte": "2.0.1",
     "@snowpack/plugin-run-script": "2.3.0",
-    "@testing-library/jest-dom": "5.12.0",
+    "@testing-library/jest-dom": "5.13.0",
     "@testing-library/svelte": "3.0.3",
     "@tsconfig/svelte": "2.0.1",
     "@types/classnames": "2.3.0",
