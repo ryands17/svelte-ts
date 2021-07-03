@@ -28,7 +28,7 @@
     "husky": "6.0.0",
     "jest": "27.0.4",
     "lint-staged": "11.0.0",
-    "prettier": "2.3.0",
+    "prettier": "2.3.2",
     "snowpack": "3.5.4",
     "svelte-check": "2.1.0",
     "svelte-preprocess": "4.7.3",
